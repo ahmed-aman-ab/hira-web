@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="submit.php" method="post" target="_blank" autocomplete="on">
+    <h1><mark>forms</mark></h1>
+    <label for="name">full name</label><br>
+    <input type="text" id="name" name="user name" required value="" placeholder="write your name">
+    <br>
+    <label for="password">password</label>
+    <br>
+    <input type="password" minlength="6" id="password" name="password"  required value="" placeholder="write your password">
+<br>
+<label for="email">email</label>
+<br> 
+<input type="email" id="email" name="email" required value="" placeholder="write your email">
+<br>
+<label for="age">age</label>
+<br>
+<input type="number" id="age" name="age" required value="" placeholder="write your age">
+<br>
+<label for="gender">gender</label>
+<br>
+<input type="radio" id="male" name="gender" value="male" required> male
+<input type="radio" id="female" name="gender" value="female" required> female
+
+<br>
+<label for="skills">skills</label>
+<br>
+<input type="checkbox" name="skills" value="html"> html
+<input type="checkbox" name="skills" value="css"> css
+<br>
+<label for="country">country</label>
+<br>
+<select name="country" id="country">
+<option value="et">ethiopia</option>
+<option value="ke">kenya</option>
+<option value="sd">saudi</option>
+</select>
+<br>
+<label for="message">message</label>
+<br>
+<textarea id="message" name="message" rows="10" cols="20">write your message here</textarea>
+<br>
+<br>
+<input type="submit" value="send">
+
+
+
+
+    </form>
+</body>
+</html>
